@@ -8,4 +8,25 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 347d42f3745f87f4fa1db2bed37f6776
+  - enabled: 1
+    path: Assets/Scenes/L1_Home.unity
+    guid: b6a3dd4153c991143ae4c33f7c080ce1
+  - enabled: 1
+    path: Assets/Scenes/L2_Pavement.unity
+    guid: 725b7283f8d8bb248ba5eaae8863760c
+  - enabled: 1
+    path: Assets/Scenes/L3_Bus.unity
+    guid: 48282ef5a6ed75549a43313fbe0cb132
+  - enabled: 1
+    path: Assets/Scenes/L4_Train.unity
+    guid: 1539b5c6391e6ac4ab3cb67ccc334029
+  - enabled: 1
+    path: Assets/Scenes/WinScene.unity
+    guid: 05dd51d075ea955458de8661de265b2d
+  - enabled: 1
+    path: Assets/Scenes/LoseScene 1.unity
+    guid: 64896764323447944b77a5cb7a0f9a32
   m_configObjects: {}
