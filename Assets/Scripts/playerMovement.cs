@@ -5,9 +5,9 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     public float moveSpeed;
-    public Rigidbody2D rb;
+    public Rigidbody rb;
 
-    private Vector2 moveDirection;
+    private Vector3 moveDirection;
 
     void Update()
     {
@@ -24,12 +24,12 @@ public class PlayerMovement : MonoBehaviour
         float moveX = Input.GetAxisRaw("Horizontal");
         float moveY = Input.GetAxisRaw("Vertical");
 
-        moveDirection = new Vector2(moveX, moveY).normalized;
+        moveDirection = new Vector3(moveX, moveY).normalized;
     }
 
     void Move()
     {
-        rb.velocity = new Vector2(moveDirection.x * moveSpeed, moveDirection.y * moveSpeed);
+        rb.velocity = new Vector3(moveDirection.x * moveSpeed, moveDirection.y * moveSpeed, 0f);
     }
 
 }

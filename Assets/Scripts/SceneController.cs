@@ -3,11 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class MainMenu : MonoBehaviour
+public class LoadSceneOnCollision : MonoBehaviour
 {
-    public void LoadScene(string sceneName)
-    {
-        SceneManager.LoadScene(sceneName);
-    }
+    public string sceneToLoad; 
 
+    void OnCollisionEnter(Collision collision)
+    {
+
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            SceneManager.LoadScene(sceneToLoad);
+        }
+    }
 }
