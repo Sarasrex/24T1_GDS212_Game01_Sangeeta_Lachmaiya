@@ -7,10 +7,12 @@ public class LoadSceneOnCollision : MonoBehaviour
 {
     public string sceneToLoad; 
 
-    void OnCollisionEnter(Collision collision)
-    {
 
-        if (collision.gameObject.CompareTag("Player"))
+    private void OnTriggerEnter(Collider other)
+    {
+        Debug.Log("test");
+
+        if (other.gameObject.CompareTag("Player"))
         {
             SceneManager.LoadScene(sceneToLoad);
         }
