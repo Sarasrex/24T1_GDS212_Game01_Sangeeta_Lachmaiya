@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028331, g: 0.2257133, b: 0.3069217, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -727,7 +727,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 0
-  orthographic size: 1.095
+  orthographic size: 0.9
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
@@ -2873,6 +2873,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: player
       objectReference: {fileID: 0}
+    - target: {fileID: 1938003107339523762, guid: 56c2f37eb589ce345afb8a0f7b08dda9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 6350621457786138016, guid: 56c2f37eb589ce345afb8a0f7b08dda9,
         type: 3}
       propertyPath: moveSpeed
@@ -3112,7 +3117,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c47283dab4d3e2f448905d55df07ef20, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: L2_Pavement
+  sceneToLoad: WinScene
 --- !u!65 &2132880294
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3193,8 +3198,8 @@ Transform:
   m_GameObject: {fileID: 2132880292}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -82.7, y: 32.8, z: 2.7}
-  m_LocalScale: {x: 50.85259, y: 117.23223, z: 12.411846}
+  m_LocalPosition: {x: -51.1, y: 32.8, z: 2.7}
+  m_LocalScale: {x: 5.0857673, y: 117.23223, z: 12.411846}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
