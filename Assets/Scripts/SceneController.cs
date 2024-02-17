@@ -17,4 +17,5 @@ public class LoadSceneOnCollision : MonoBehaviour
             SceneManager.LoadScene(sceneToLoad);
         }
     }
+
 }
